@@ -11,7 +11,7 @@ export interface VideoInterface {
   url_4k: string;
 }
 
-const url = 'http://' + process.env.API_URL;
+const url = 'http://localhost:3030';
 
 export class dataClass {
 
